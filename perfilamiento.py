@@ -54,7 +54,7 @@ plt.show()
 plot_acf(diff)
 plt.show()
 
-#-- Prueba de Fuller
+#-- Prueba de Dickey -------Fuller
 from statsmodels.tsa.stattools import adfuller
 def test_stationarity(timeseries,periodo):
 
